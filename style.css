@@ -57,7 +57,7 @@ button {
     font-family: "Text", sans-serif;
     font-size: 50px;
 }
-button:active {
+button:hover {
     background-position: 0 100%;
 }
 
