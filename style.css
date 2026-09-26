@@ -9,6 +9,12 @@
 }
 
 body {
+        text-shadow:
+        -4px -4px 0 #000,
+         4px -4px 0 #000,
+        -4px  4px 0 #000,
+         4px  4px 0 #000;
+    
     color: white;
     text-align: center;
     position: relative;
@@ -19,6 +25,7 @@ font-family: "Text", sans-serif;
 }
 
 h1 {
+  color: #AAAAAA;
   font-family: "Logo", sans-serif;
   font-size: 120px;
 }
