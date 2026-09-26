@@ -50,6 +50,9 @@ button {
 
     border: none;
     padding: 0;
+
+    font-family: "Text", sans-serif;
+  font-size: 30px;
 }
 button:active {
     background-position: 0 100%;
