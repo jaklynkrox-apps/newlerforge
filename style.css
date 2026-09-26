@@ -42,7 +42,7 @@ h1 {
 button {
     position: relative;
     z-index: 10;
-    width: 80vw;
+    width: 60vw;
     aspect-ratio: 200 / 40;
 
     background-image: url("buttons.png");
@@ -52,6 +52,7 @@ button {
 
     border: none;
     padding: 0;
+    image-rendering: pixelated;
 
     font-family: "Text", sans-serif;
     font-size: 30px;
