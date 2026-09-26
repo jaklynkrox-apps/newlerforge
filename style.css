@@ -46,7 +46,7 @@ button {
     aspect-ratio: 200 / 20;
 
     background-image: url("buttons.png");
-    background-size: 100% 100%;
+    background-size: 100% 200%;
     background-repeat: no-repeat;
     background-position: center;
 
