@@ -8,8 +8,28 @@
     src: url("mcText.otf") format("opentype");
 }
 
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-image: url("dirt.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+
+    z-index: -1;
+}
+
 body {
     text-align: center;
+    position: relative;
 }
 n {
 font-family: "Text", sans-serief;
