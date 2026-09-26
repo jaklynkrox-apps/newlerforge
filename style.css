@@ -48,7 +48,7 @@ button {
     background-image: url("buttons.png");
     background-size: 100% 200%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0%;
 
     border: none;
     padding: 0;
