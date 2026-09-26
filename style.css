@@ -49,6 +49,8 @@ button {
     background-position: center;
 
     border: none;
+    padding: 0;
+    
     font-family: "Text", sans-serif;
     font-size: 30px;
 }
