@@ -1,1 +1,19 @@
+@font-face {
+    font-family: "Logo";
+    src: url("mcLogo.ttf") format("truetype");
+}
 
+@font-face {
+    font-family: "Text";
+    src: url("mcText.otf") format("opentype");
+}
+
+body {
+  font-family: "Text", sans-serief;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Logo", sans-serief;
+  font-size: 50px;
+}
