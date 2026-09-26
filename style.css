@@ -25,14 +25,14 @@ font-family: "Text", sans-serif;
 
 h1 {
     text-shadow:
-    -2px -2px 0 #000,
-     0px -2px 0 #000,
-     2px -2px 0 #000,
-    -2px  0px 0 #000,
-     2px  0px 0 #000,
-    -2px  2px 0 #000,
-     0px  2px 0 #000,
-     2px  2px 0 #000;
+    -4px -4px 0 #000,
+     0px -4px 0 #000,
+     4px -4px 0 #000,
+    -4px  0px 0 #000,
+     4px  0px 0 #000,
+    -4px  4px 0 #000,
+     0px  4px 0 #000,
+     4px  4px 0 #000;
     
   color: #AAAAAA;
   font-family: "Logo", sans-serif;
