@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="style.css"> 
+    <title>NewlerForge: Modded Eaglercraft the Better Way</title>
+  </head>
+  <body>
+    <div id="dirt-background"></div>
+    <h1>Newlerforge</h1>
+    
+    <n>You are leaving the Newlerforge Webiste to visit the Github page. Are you sure you want to do this?</n>
+    <br>
+    <button onclick="window.location.href='https://github.com/jaklynkrox-apps/newlerforge/tree/main'">Continue</button>
+        <br>
+    <br>
+    <button onclick="window.location.href='index.html'">Go Back</button>
+    <script>
+      const dirtBackground = document.getElementById("dirt-background");
+
+      window.addEventListener("scroll", () => {
+      dirtBackground.style.backgroundPosition =
+        `0 ${window.scrollY * -0.25}px`;
+      });
+    </script>
+  </body>
+</html>
