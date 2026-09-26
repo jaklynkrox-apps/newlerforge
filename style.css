@@ -38,6 +38,24 @@ h1 {
   font-family: "Logo", sans-serif;
   font-size: 120px;
 }
+button {
+    width: 60vw;
+    aspect-ratio: 10 / 1;
+
+    background-image: url("button.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    border: none;
+    padding: 0;
+
+    font-family: "Text", sans-serif;
+    color: white;
+}
+
+button:active {
+    background-position: 0 100%;
+}
 #dirt-background {
     position: fixed;
     top: 0;
