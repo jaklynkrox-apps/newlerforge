@@ -20,20 +20,6 @@ h1 {
   font-family: "Logo", sans-serief;
   font-size: 70px;
 }
-#background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    pointer-events: none;
-}
-
-#background img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 #dirt-background {
     position: fixed;
     top: 0;
@@ -47,7 +33,6 @@ h1 {
     background-size: 100% auto;
     background-position: 0 0;
 
-    z-index: -100;
+    z-index: 0;
     pointer-events: none;
 }
-
