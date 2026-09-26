@@ -41,7 +41,7 @@ h1 {
 
 button {
     width: 80vw;
-    aspect-ratio: 10 / 1;
+    aspect-ratio: 200 / 20;
 
     background-image: url("button.png");
     background-repeat: no-repeat;
@@ -53,10 +53,6 @@ button {
 
     font-family: "Text", sans-serif;
     font-size: 30px;
-}
-
-button:active {
-    background-position: 0 100%;
 }
 
 #dirt-background {
