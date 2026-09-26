@@ -59,6 +59,7 @@ button {
     font-size: 50px;
 }
 button:active {
+    filter: hue-rotate(180deg);
     background-position: 0 100%;
 }
 
