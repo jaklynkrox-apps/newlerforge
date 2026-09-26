@@ -40,22 +40,15 @@ h1 {
 }
 
 button {
-    width: 60vw;
-    aspect-ratio: 10 / 1;
+    width: 80vw;
+    height: 80px;
 
     background-image: url("button.png");
     background-repeat: no-repeat;
-    background-size: 100% 200%;
-    background-position: 0 0;
+    background-size: 100% 100%;
+    background-position: center;
 
     border: none;
-    padding: 0;
-
-    font-family: "Text", sans-serif;
-  font-size: 30px;
-}
-button:active {
-    background-position: 0 100%;
 }
 
 #dirt-background {
