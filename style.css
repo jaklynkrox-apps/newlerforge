@@ -10,6 +10,7 @@
 
 body {
     text-align: center;
+    position: relative;
 }
 n {
 font-family: "Text", sans-serief;
@@ -31,8 +32,7 @@ h1 {
     background-image: url("dirt.png");
     background-repeat: repeat-y;
     background-size: 100% auto;
-    background-position: 0 0;
 
-    z-index: 0;
+    z-index: -1;
     pointer-events: none;
 }
