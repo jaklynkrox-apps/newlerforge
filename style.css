@@ -34,3 +34,19 @@ h1 {
     width: 100%;
     height: auto;
 }
+#dirt-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("dirt.png");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: 0 0;
+
+    z-index: -100;
+    pointer-events: none;
+}
