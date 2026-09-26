@@ -9,6 +9,26 @@
 }
 
 body {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+n {
+    text-shadow:
+    -1px -1px 0 #000,
+     0px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  0px 0 #000,
+     1px  0px 0 #000,
+    -1px  1px 0 #000,
+     0px  1px 0 #000,
+     1px  1px 0 #000;
+    
+font-family: "Text", sans-serif;
+  font-size: 30px;
+}
+
+h1 {
     text-shadow:
     -2px -2px 0 #000,
      0px -2px 0 #000,
@@ -19,16 +39,6 @@ body {
      0px  2px 0 #000,
      2px  2px 0 #000;
     
-    color: white;
-    text-align: center;
-    position: relative;
-}
-n {
-font-family: "Text", sans-serif;
-  font-size: 30px;
-}
-
-h1 {
   color: #AAAAAA;
   font-family: "Logo", sans-serif;
   font-size: 120px;
