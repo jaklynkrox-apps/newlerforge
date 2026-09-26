@@ -41,12 +41,12 @@ h1 {
 
 button {
     width: 80vw;
-    aspect-ratio: 200 / 20;
+    aspect-ratio: 200 / 40;
 
     background-image: url("button.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-size: 100% 200%;
-    background-position: 0 0;
+    background-position: center;
 
     border: none;
     padding: 0;
