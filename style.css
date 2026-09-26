@@ -9,7 +9,10 @@
 }
 
 body {
-  font-family: "Text", sans-serief;
+    text-align: center;
+}
+n {
+font-family: "Text", sans-serief;
   font-size: 30px;
 }
 
