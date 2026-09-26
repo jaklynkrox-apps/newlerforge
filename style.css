@@ -54,8 +54,9 @@ button {
     padding: 0;
     image-rendering: pixelated;
 
+    color: white;
     font-family: "Text", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #dirt-background {
